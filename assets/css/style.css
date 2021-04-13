@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
+/***************************************** GENERAL***/
 
 * {
     margin:0;
@@ -11,6 +12,10 @@
 body {
     font-family: 'Shadows Into Light Two', cursive;
     color:#fafafa;
+}
+
+.heading-center {
+    text-align:center;
 }
 
 /***************************************** NAV***/
@@ -98,9 +103,11 @@ body {
 
 .about {
     text-align:center;
-    padding:20px 0 10px;
+    padding:50px 0 40px;
     letter-spacing:1px;
     font-weight:500;
+    font-weight:1000;
+    
 }
 
 .about h1 {
@@ -120,7 +127,7 @@ body {
 /***************************************** FOOTER***/
 
 footer {
-    height:100px;
+    height:300px;
     width:100%;
     margin-top:2px;
     
@@ -128,7 +135,8 @@ footer {
 }
 
 .footer-bg-color {
-    background-color:rgba(274, 171, 171, 0.5);
+    background-color:#a5c0d9;
+    height:250px;
     
 }
 
@@ -141,6 +149,30 @@ footer {
     display:inline-block;
     margin:0 auto;
     list-style-type: none;
+}
+
+/***************************************** CHEF PROFILE***/
+
+.chef-profile {
+    min-height:800px;
+    background-color:rgba(274, 171, 171, 0.5);
+    margin-top:2px;
+}
+
+#chef-1 {
+    background:url("/images/french-baker-and-pastry-chef-gontran-cherrier-in-his-bakery-in-rue-H60M5K.jpg") no-repeat center center;
+    height:400px;
+    width:100%;
+}
+
+#chef-2 {
+    background:url("/images/2098765.jpg") no-repeat center center;
+    height:400px;
+    width:100%;
+}
+
+#chef-profile p {
+    font-weight:500;
 }
 
 /***************************************** FORM***/
