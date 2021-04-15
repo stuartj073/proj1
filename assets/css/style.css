@@ -11,7 +11,7 @@
 
 body {
     font-family: 'Shadows Into Light Two', cursive;
-    color:#fafafa;
+    color:black;
 }
 
 .heading-center {
@@ -33,7 +33,7 @@ header {
 }
 
 .navi {
-    display:inline;
+    
     float:right;
 }
 
@@ -47,7 +47,7 @@ header {
 
 .logo {
     padding:10px 10px;
-    background-color:#a5c0d9;
+    background-color:#f5f5f5;
     height:75px;
     width:100%;
 }
@@ -64,7 +64,8 @@ header {
 /***************************************** COVER***/
 
 .cover-bg {
-    background:url("/images/how-to-order-french-bakery-5.jpg") no-repeat center center;
+    background:url("/images/agnieszka-kowalczyk-_xzLI_Hz0jc-unsplash (3).jpg") no-repeat center center;
+    background-size:cover;
     height:500px;
     width:100%;
     position:relative;
@@ -102,10 +103,29 @@ header {
     padding-top:10px;
 }
 
+/***************************************** Customer section***/
+.customers-sec {
+    min-height:600px;
+    background-color:#f5f5f5;
+    color:black;
+    margin:5px 0;
+    position:relative;
+
+}
+
+.quotes {
+    position:absolute;
+    top:40%;
+    width:inherit;
+
+    
+}
+
+
 /***************************************** INF0***/
 
 .info-sec {
-    min-height:400px;
+    min-height:800px;
     width:100%;
     background-color:#a5c0d9;
     margin-top:2px;
@@ -235,3 +255,25 @@ input [type="text"] {
     margin-left:5px;
     
 }
+
+@media only screen and (max-width:770px) {
+    .navi {
+        display:none;
+    }
+
+    .logo {
+        height:100px;
+        text-align:center;
+    }
+    
+    #cover-text {
+        width:100%;
+        left:0;
+    }
+
+    .info-sec h2 {
+        margin-top:25px;
+    }
+
+}
+    
